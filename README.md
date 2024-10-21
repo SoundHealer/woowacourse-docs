@@ -2,16 +2,17 @@
 
 ---
 
-## [우아한테크코스 면담 신청](./consulting/README.md)
+1주차 프리코스 과제
 
----
+----
+기능 구현
 
-## [우아한테크코스 클린코드 원칙](./cleancode/README.md)
+1. Console.readLine();으로 문자열 받는 변수 생성
 
----
+2. 해당 문자열을 매개변수로 분석해서 null값이거나 공백이면 return 0값 반환하는 함수 생성
 
-## [우아한테크코스 코드리뷰 요청](./maincourse/README.md)
+3. 문자열이 ","나 ":"를 포함할 경우 해당 문자를 삭제하고 배열storage에 저장 후 integer형태로 형변환 하여 결과를 반환하는 함수를 생성한다.
 
----
+4. 기본 구분자 외에 커스텀 구분자를 추가하여 구분할 수 있도록 변경
 
-## [우아한테크코스 프리코스 과제 제출](./precourse/README.md)
+5. IllegalArgumentException 구문 추가하여 애플리케이션 종료하도록 변경
